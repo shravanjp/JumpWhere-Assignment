@@ -27,9 +27,9 @@ int upperBound(vector<int>& nums, int target){
     }
 
     //to handle target coming as last element
-    if(nums[nums.size()-1]!=target)
-        return low-1;
-    else 
+    // if(nums[nums.size()-1]!=target)
+    //     return low-1;
+    // else 
         return low;
 }
 
@@ -47,11 +47,16 @@ vector<int> searchRange(vector<int> &nums, int target){
     int lastIndex = upperBound(nums, target);
 
     //to handle single element
-    if(lastIndex == -1){
-        vec[1] = firstIndex;
-    }else{
-        vec[1] = lastIndex;
+    // if(lastIndex == -1){
+    //     vec[1] = firstIndex;
+    // }else{
+    //     vec[1] = lastIndex;
+    // }
+
+    if(nums[lastIndex] != target){
+        lastIndex--;
     }
+    vec[1] = lastIndex;
     return vec;
 }
 
