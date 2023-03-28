@@ -1,3 +1,5 @@
+# 1) Write a python class to convert an integer into a roman numeral and viceversa
+
 class Converter:
     def intToRoman(self, num):
         symbols = ["I","IV","V","IX","X","XL","L","XC","C","CD","D","CM","M"]
