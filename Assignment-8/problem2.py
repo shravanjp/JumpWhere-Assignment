@@ -24,7 +24,7 @@ class Solution:
         else:
             return "valid"
 
-obj = Solution();
+obj = Solution()
 str = input("Enter the string to check validity:  ")
 print(obj.checkBracketValidity(str))
 
