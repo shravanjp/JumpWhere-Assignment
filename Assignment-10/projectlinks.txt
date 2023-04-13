@@ -3,5 +3,9 @@ Link -> https://github.com/shravanjp/ZipLink
 
 
 
-2)TOdo App -> TaskMate 
-Link -> https://github.com/shravanjp/TaskMate
+2)Todo App -> TaskMate 
+Link -> https://github.com/shravanjp/TaskMate/
+
+
+3)English Dictionary  -> WordNexus
+Link -> https://github.com/shravanjp/WordNexus
